@@ -11,5 +11,8 @@ class BuxuyaoItem(scrapy.Item):
     title = scrapy.Field()
     cover = scrapy.Field()
     intro = scrapy.Field()
+    pageLink=scrapy.Field()
+    detailLink=scrapy.Field()
+    detailImg=scrapy.Field()
     image_urls = scrapy.Field()
     images = scrapy.Field()
